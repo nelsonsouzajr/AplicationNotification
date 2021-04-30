@@ -3,8 +3,10 @@ package com.dostoi.aplicationnotification
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.annotation.RequiresApi
+import com.google.firebase.iid.FirebaseInstanceId
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,5 +21,7 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener {
             this.showNotification("1234", "bootcamp Android", "Kotlin Android curso")
         }
+
+        Log.i("**newToken", FirebaseInstanceId.getInstance().token.toString())
     }
 }

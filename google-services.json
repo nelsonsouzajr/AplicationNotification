@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "915968981207",
+    "project_id": "aplication-notification",
+    "storage_bucket": "aplication-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915968981207:android:432b774f767063b2e35892",
+        "android_client_info": {
+          "package_name": "com.dostoi.aplicationnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915968981207-skggtnilvcmosgvqm5ijfd9b9ht7shgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAKL4fQqshh3r9k0BlszD9f6kW-ADCVA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915968981207-skggtnilvcmosgvqm5ijfd9b9ht7shgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
